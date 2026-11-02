@@ -4,8 +4,8 @@
   "subtitle": "财政部 iPhone 版本发布",
   "description": "仅发布财政部安装包、更新清单和说明；不包含个人账本、截图、日志或应用源码。",
   "website": "https://github.com/Cbeizi/caizhengbu-releases",
-  "sourceURL": "https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/source.json",
-  "iconURL": "https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/icon.png",
+  "sourceURL": "https://pub-4b274449c705402b9aa4f4033e0865a9.r2.dev/source.json",
+  "iconURL": "https://pub-4b274449c705402b9aa4f4033e0865a9.r2.dev/icon.png",
   "tintColor": "1684F8",
   "apps": [
     {
@@ -14,10 +14,20 @@
       "developerName": "Cbeizi",
       "subtitle": "个人与家庭本机账本",
       "localizedDescription": "原生 iPhone 账本，支持本机付款截图识别、账户、预算、资产和附近家庭共享。账本保存在设备上。",
-      "iconURL": "https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/icon.png",
+      "iconURL": "https://pub-4b274449c705402b9aa4f4033e0865a9.r2.dev/icon.png",
       "tintColor": "1684F8",
       "category": "utilities",
       "versions": [
+        {
+          "version": "0.2.15",
+          "buildVersion": "20",
+          "date": "2026-11-02T16:15:03+00:00",
+          "localizedDescription": "财政部 0.2.15（20）\n\n- 在线安装包改用已经完整直连校验的下载地址，避免 GitHub Release 下载卡住。\n- 新增固定直连更新源，清单、图标和安装包均使用同一分发服务；原 GitHub 更新源同步发布新版。\n- 应用内更新入口使用直连更新源，后续版本自动上传、校验并发布，无需逐次传输或导入安装包。\n- 保留报销、提成、奖金等收入类目，以及支付宝绑定银行卡付款的渠道识别修复。\n\n保持 LocalDevVPN 与 Wi-Fi 已连接，在 SideStore 来源中刷新后更新；沿用原签名账户和现有 AppID覆盖安装。\n",
+          "downloadURL": "https://pub-4b274449c705402b9aa4f4033e0865a9.r2.dev/releases/v0.2.15-build20/caizhengbu-0.2.15-build20.ipa",
+          "size": 39223579,
+          "minOSVersion": "26.0",
+          "sha256": "3be5341c06eaac9ae2690c5af59b51fca650227d0d73ab66a4995c353a96c741"
+        },
         {
           "version": "0.2.13",
           "buildVersion": "18",
@@ -45,11 +55,11 @@
           "NSLocalNetworkUsageDescription": "与附近家人的资产账本交换加密账目，让两台设备共享家庭财务。"
         }
       },
-      "version": "0.2.13",
-      "versionDate": "2026-11-02T14:50:09+00:00",
-      "versionDescription": "财政部 0.2.13（18）\n\n- 收入分类增加报销、提成、奖金、兼职、经营收入、投资收益、利息、租金和礼金，保留工资收入与其他。\n- 手动记录收入、小票分类和修改已有收入记录均可选择收入类目，本机与云端识别支持这些分类。\n- 修复支付宝使用绑定银行卡付款时的支付方式识别：结合完整账单管理页面识别支付宝，银行卡继续作为独立资金账户。\n- 云端漏识别渠道或把银行卡当成渠道时，可依据本机读到的页面特征补全；缺少足够证据时保留核对。\n\n沿用原来的 SideStore 签名账户覆盖更新，保留现有 App 和账本。最低 iOS 26.0。\n",
-      "downloadURL": "https://github.com/Cbeizi/caizhengbu-releases/releases/download/v0.2.13-build18/caizhengbu-0.2.13-build18.ipa",
-      "size": 39223422
+      "version": "0.2.15",
+      "versionDate": "2026-11-02T16:15:03+00:00",
+      "versionDescription": "财政部 0.2.15（20）\n\n- 在线安装包改用已经完整直连校验的下载地址，避免 GitHub Release 下载卡住。\n- 新增固定直连更新源，清单、图标和安装包均使用同一分发服务；原 GitHub 更新源同步发布新版。\n- 应用内更新入口使用直连更新源，后续版本自动上传、校验并发布，无需逐次传输或导入安装包。\n- 保留报销、提成、奖金等收入类目，以及支付宝绑定银行卡付款的渠道识别修复。\n\n保持 LocalDevVPN 与 Wi-Fi 已连接，在 SideStore 来源中刷新后更新；沿用原签名账户和现有 AppID覆盖安装。\n",
+      "downloadURL": "https://pub-4b274449c705402b9aa4f4033e0865a9.r2.dev/releases/v0.2.15-build20/caizhengbu-0.2.15-build20.ipa",
+      "size": 39223579
     }
   ],
   "news": []
