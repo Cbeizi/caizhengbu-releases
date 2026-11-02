@@ -1,0 +1,46 @@
+{
+  "identifier": "com.cbeizi.caizhengbu.updates",
+  "name": "财政部更新源",
+  "subtitle": "财政部 iPhone 版本发布",
+  "description": "仅发布财政部安装包、更新清单和说明；不包含个人账本、截图、日志或应用源码。",
+  "website": "https://github.com/Cbeizi/caizhengbu-releases",
+  "sourceURL": "https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/source.json",
+  "iconURL": "https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/icon.png",
+  "tintColor": "1684F8",
+  "apps": [
+    {
+      "name": "财政部",
+      "bundleIdentifier": "com.caoxueqin.assetbook.preview",
+      "developerName": "Cbeizi",
+      "subtitle": "个人与家庭本机账本",
+      "localizedDescription": "原生 iPhone 账本，支持本机付款截图识别、账户、预算、资产和附近家庭共享。账本保存在设备上。",
+      "iconURL": "https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/icon.png",
+      "tintColor": "1684F8",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.2.12",
+          "buildVersion": "17",
+          "date": "2026-11-02T12:17:38+00:00",
+          "localizedDescription": "财政部 0.2.12（17）\n\n- 加入 SideStore 更新源，后续版本可直接在手机获取。\n- 设置中新增“应用更新”，支持检查版本、阅读更新说明、发起 SideStore 安装、添加或复制更新源。\n- 每天最多自动检查一次，可关闭；支持手动重试及已验证版本清单缓存。\n- 检查更新仅请求公开版本清单，不发送账目、截图或账户资料。\n- 保留此前 118 个图标、改进版本机 Vision、账户绑定、预算周期和诊断日志功能。\n\n首次在 SideStore 来源页添加更新源，再更新财政部；请沿用原来的签名账户，保留现有 App 进行升级。\n安装和签名由 SideStore 完成。此分发包为未签名 iPhone arm64 包，最低 iOS 26.0。\n",
+          "downloadURL": "https://github.com/Cbeizi/caizhengbu-releases/releases/download/v0.2.12-build17/caizhengbu-0.2.12-build17.ipa",
+          "size": 39203259,
+          "minOSVersion": "26.0",
+          "sha256": "fc51f7915dab2b0a0b172683394943fb339390cf44bd08f16cde73d4392cce35"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "与附近家人的资产账本交换加密账目，让两台设备共享家庭财务。"
+        }
+      },
+      "version": "0.2.12",
+      "versionDate": "2026-11-02T12:17:38+00:00",
+      "versionDescription": "财政部 0.2.12（17）\n\n- 加入 SideStore 更新源，后续版本可直接在手机获取。\n- 设置中新增“应用更新”，支持检查版本、阅读更新说明、发起 SideStore 安装、添加或复制更新源。\n- 每天最多自动检查一次，可关闭；支持手动重试及已验证版本清单缓存。\n- 检查更新仅请求公开版本清单，不发送账目、截图或账户资料。\n- 保留此前 118 个图标、改进版本机 Vision、账户绑定、预算周期和诊断日志功能。\n\n首次在 SideStore 来源页添加更新源，再更新财政部；请沿用原来的签名账户，保留现有 App 进行升级。\n安装和签名由 SideStore 完成。此分发包为未签名 iPhone arm64 包，最低 iOS 26.0。\n",
+      "downloadURL": "https://github.com/Cbeizi/caizhengbu-releases/releases/download/v0.2.12-build17/caizhengbu-0.2.12-build17.ipa",
+      "size": 39203259
+    }
+  ],
+  "news": []
+}
