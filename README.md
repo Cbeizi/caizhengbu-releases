@@ -5,7 +5,7 @@
 在两台 iPhone 上分别打开 SideStore → Sources（来源）→ 添加来源，粘贴：
 
 ```
-https://raw.githubusercontent.com/Cbeizi/caizhengbu-releases/main/source.json
+https://pub-4b274449c705402b9aa4f4033e0865a9.r2.dev/source.json
 ```
 
 添加后在 SideStore 中更新财政部。安装带更新入口的版本后，也可从财政部“设置 → 应用更新”发起更新。
