@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "0.2.13",
+          "buildVersion": "18",
+          "date": "2026-11-02T14:50:09+00:00",
+          "localizedDescription": "财政部 0.2.13（18）\n\n- 收入分类增加报销、提成、奖金、兼职、经营收入、投资收益、利息、租金和礼金，保留工资收入与其他。\n- 手动记录收入、小票分类和修改已有收入记录均可选择收入类目，本机与云端识别支持这些分类。\n- 修复支付宝使用绑定银行卡付款时的支付方式识别：结合完整账单管理页面识别支付宝，银行卡继续作为独立资金账户。\n- 云端漏识别渠道或把银行卡当成渠道时，可依据本机读到的页面特征补全；缺少足够证据时保留核对。\n\n沿用原来的 SideStore 签名账户覆盖更新，保留现有 App 和账本。最低 iOS 26.0。\n",
+          "downloadURL": "https://github.com/Cbeizi/caizhengbu-releases/releases/download/v0.2.13-build18/caizhengbu-0.2.13-build18.ipa",
+          "size": 39223422,
+          "minOSVersion": "26.0",
+          "sha256": "7ff468f2a82bcda70c37bd4b59d78f436db2c1cc279d4bd3faa05c658d9a2b35"
+        },
+        {
           "version": "0.2.12",
           "buildVersion": "17",
           "date": "2026-11-02T12:17:38+00:00",
@@ -35,11 +45,11 @@
           "NSLocalNetworkUsageDescription": "与附近家人的资产账本交换加密账目，让两台设备共享家庭财务。"
         }
       },
-      "version": "0.2.12",
-      "versionDate": "2026-11-02T12:17:38+00:00",
-      "versionDescription": "财政部 0.2.12（17）\n\n- 加入 SideStore 更新源，后续版本可直接在手机获取。\n- 设置中新增“应用更新”，支持检查版本、阅读更新说明、发起 SideStore 安装、添加或复制更新源。\n- 每天最多自动检查一次，可关闭；支持手动重试及已验证版本清单缓存。\n- 检查更新仅请求公开版本清单，不发送账目、截图或账户资料。\n- 保留此前 118 个图标、改进版本机 Vision、账户绑定、预算周期和诊断日志功能。\n\n首次在 SideStore 来源页添加更新源，再更新财政部；请沿用原来的签名账户，保留现有 App 进行升级。\n安装和签名由 SideStore 完成。此分发包为未签名 iPhone arm64 包，最低 iOS 26.0。\n",
-      "downloadURL": "https://github.com/Cbeizi/caizhengbu-releases/releases/download/v0.2.12-build17/caizhengbu-0.2.12-build17.ipa",
-      "size": 39203259
+      "version": "0.2.13",
+      "versionDate": "2026-11-02T14:50:09+00:00",
+      "versionDescription": "财政部 0.2.13（18）\n\n- 收入分类增加报销、提成、奖金、兼职、经营收入、投资收益、利息、租金和礼金，保留工资收入与其他。\n- 手动记录收入、小票分类和修改已有收入记录均可选择收入类目，本机与云端识别支持这些分类。\n- 修复支付宝使用绑定银行卡付款时的支付方式识别：结合完整账单管理页面识别支付宝，银行卡继续作为独立资金账户。\n- 云端漏识别渠道或把银行卡当成渠道时，可依据本机读到的页面特征补全；缺少足够证据时保留核对。\n\n沿用原来的 SideStore 签名账户覆盖更新，保留现有 App 和账本。最低 iOS 26.0。\n",
+      "downloadURL": "https://github.com/Cbeizi/caizhengbu-releases/releases/download/v0.2.13-build18/caizhengbu-0.2.13-build18.ipa",
+      "size": 39223422
     }
   ],
   "news": []
